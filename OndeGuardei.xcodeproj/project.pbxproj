@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF22A5AB1E740ABD0018C8F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22A5AA1E740ABD0018C8F3 /* AppDelegate.swift */; };
+		AF22A5AD1E740ABD0018C8F3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22A5AC1E740ABD0018C8F3 /* MainViewController.swift */; };
+		AF22A5B01E740ABD0018C8F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF22A5AE1E740ABD0018C8F3 /* Main.storyboard */; };
+		AF22A5B31E740ABD0018C8F3 /* OndeGuardei.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF22A5B11E740ABD0018C8F3 /* OndeGuardei.xcdatamodeld */; };
+		AF22A5B81E740ABD0018C8F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF22A5B61E740ABD0018C8F3 /* LaunchScreen.storyboard */; };
+		AF22A5C11E7412270018C8F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF22A5C01E7412270018C8F3 /* Assets.xcassets */; };
+		AF22A5C31E7412E90018C8F3 /* ObjetosListagemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22A5C21E7412E90018C8F3 /* ObjetosListagemTableViewController.swift */; };
+		AF22A5C61E7413650018C8F3 /* CoreDataObjeto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22A5C51E7413650018C8F3 /* CoreDataObjeto.swift */; };
+		AF22A5C91E7414390018C8F3 /* FuncoesGerais.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22A5C81E7414390018C8F3 /* FuncoesGerais.swift */; };
+		AF22A5CB1E743E9C0018C8F3 /* FavoritosListagemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22A5CA1E743E9C0018C8F3 /* FavoritosListagemTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF22A5A71E740ABD0018C8F3 /* OndeGuardei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OndeGuardei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF22A5AA1E740ABD0018C8F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF22A5AC1E740ABD0018C8F3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AF22A5AF1E740ABD0018C8F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF22A5B21E740ABD0018C8F3 /* OndeGuardei.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OndeGuardei.xcdatamodel; sourceTree = "<group>"; };
+		AF22A5B71E740ABD0018C8F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF22A5B91E740ABD0018C8F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF22A5C01E7412270018C8F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF22A5C21E7412E90018C8F3 /* ObjetosListagemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjetosListagemTableViewController.swift; sourceTree = "<group>"; };
+		AF22A5C51E7413650018C8F3 /* CoreDataObjeto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataObjeto.swift; sourceTree = "<group>"; };
+		AF22A5C81E7414390018C8F3 /* FuncoesGerais.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncoesGerais.swift; sourceTree = "<group>"; };
+		AF22A5CA1E743E9C0018C8F3 /* FavoritosListagemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritosListagemTableViewController.swift; sourceTree = "<group>"; };
+		AF22A5CC1E7445AF0018C8F3 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		AF22A5CD1E7445AF0018C8F3 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF22A5A41E740ABD0018C8F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF22A59E1E740ABD0018C8F3 = {
+			isa = PBXGroup;
+			children = (
+				AF22A5A91E740ABD0018C8F3 /* OndeGuardei */,
+				AF22A5A81E740ABD0018C8F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF22A5A81E740ABD0018C8F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF22A5A71E740ABD0018C8F3 /* OndeGuardei.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF22A5A91E740ABD0018C8F3 /* OndeGuardei */ = {
+			isa = PBXGroup;
+			children = (
+				AF22A5AA1E740ABD0018C8F3 /* AppDelegate.swift */,
+				AF22A5AE1E740ABD0018C8F3 /* Main.storyboard */,
+				AF22A5B61E740ABD0018C8F3 /* LaunchScreen.storyboard */,
+				AF22A5C01E7412270018C8F3 /* Assets.xcassets */,
+				AF22A5BF1E740CEF0018C8F3 /* ViewControllers */,
+				AF22A5C71E74141E0018C8F3 /* Classes */,
+				AF22A5C41E7413440018C8F3 /* CoreDataClasses */,
+				AF22A5B91E740ABD0018C8F3 /* Info.plist */,
+				AF22A5B11E740ABD0018C8F3 /* OndeGuardei.xcdatamodeld */,
+			);
+			path = OndeGuardei;
+			sourceTree = "<group>";
+		};
+		AF22A5BF1E740CEF0018C8F3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF22A5AC1E740ABD0018C8F3 /* MainViewController.swift */,
+				AF22A5C21E7412E90018C8F3 /* ObjetosListagemTableViewController.swift */,
+				AF22A5CA1E743E9C0018C8F3 /* FavoritosListagemTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AF22A5C41E7413440018C8F3 /* CoreDataClasses */ = {
+			isa = PBXGroup;
+			children = (
+				AF22A5C51E7413650018C8F3 /* CoreDataObjeto.swift */,
+			);
+			name = CoreDataClasses;
+			sourceTree = "<group>";
+		};
+		AF22A5C71E74141E0018C8F3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF22A5C81E7414390018C8F3 /* FuncoesGerais.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF22A5A61E740ABD0018C8F3 /* OndeGuardei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF22A5BC1E740ABD0018C8F3 /* Build configuration list for PBXNativeTarget "OndeGuardei" */;
+			buildPhases = (
+				AF22A5A31E740ABD0018C8F3 /* Sources */,
+				AF22A5A41E740ABD0018C8F3 /* Frameworks */,
+				AF22A5A51E740ABD0018C8F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OndeGuardei;
+			productName = OndeGuardei;
+			productReference = AF22A5A71E740ABD0018C8F3 /* OndeGuardei.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF22A59F1E740ABD0018C8F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "DEIVID LOUREIRO";
+				TargetAttributes = {
+					AF22A5A61E740ABD0018C8F3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZDQ495P85X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AF22A5A21E740ABD0018C8F3 /* Build configuration list for PBXProject "OndeGuardei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF22A59E1E740ABD0018C8F3;
+			productRefGroup = AF22A5A81E740ABD0018C8F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF22A5A61E740ABD0018C8F3 /* OndeGuardei */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF22A5A51E740ABD0018C8F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF22A5B81E740ABD0018C8F3 /* LaunchScreen.storyboard in Resources */,
+				AF22A5C11E7412270018C8F3 /* Assets.xcassets in Resources */,
+				AF22A5B01E740ABD0018C8F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF22A5A31E740ABD0018C8F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF22A5C91E7414390018C8F3 /* FuncoesGerais.swift in Sources */,
+				AF22A5AD1E740ABD0018C8F3 /* MainViewController.swift in Sources */,
+				AF22A5CB1E743E9C0018C8F3 /* FavoritosListagemTableViewController.swift in Sources */,
+				AF22A5B31E740ABD0018C8F3 /* OndeGuardei.xcdatamodeld in Sources */,
+				AF22A5C31E7412E90018C8F3 /* ObjetosListagemTableViewController.swift in Sources */,
+				AF22A5C61E7413650018C8F3 /* CoreDataObjeto.swift in Sources */,
+				AF22A5AB1E740ABD0018C8F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF22A5AE1E740ABD0018C8F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF22A5AF1E740ABD0018C8F3 /* Base */,
+				AF22A5CC1E7445AF0018C8F3 /* pt-BR */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF22A5B61E740ABD0018C8F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF22A5B71E740ABD0018C8F3 /* Base */,
+				AF22A5CD1E7445AF0018C8F3 /* pt-BR */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF22A5BA1E740ABD0018C8F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF22A5BB1E740ABD0018C8F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF22A5BD1E740ABD0018C8F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZDQ495P85X;
+				INFOPLIST_FILE = OndeGuardei/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loureiro.OndeGuardei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AF22A5BE1E740ABD0018C8F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZDQ495P85X;
+				INFOPLIST_FILE = OndeGuardei/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loureiro.OndeGuardei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF22A5A21E740ABD0018C8F3 /* Build configuration list for PBXProject "OndeGuardei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF22A5BA1E740ABD0018C8F3 /* Debug */,
+				AF22A5BB1E740ABD0018C8F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF22A5BC1E740ABD0018C8F3 /* Build configuration list for PBXNativeTarget "OndeGuardei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF22A5BD1E740ABD0018C8F3 /* Debug */,
+				AF22A5BE1E740ABD0018C8F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF22A5B11E740ABD0018C8F3 /* OndeGuardei.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF22A5B21E740ABD0018C8F3 /* OndeGuardei.xcdatamodel */,
+			);
+			currentVersion = AF22A5B21E740ABD0018C8F3 /* OndeGuardei.xcdatamodel */;
+			path = OndeGuardei.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF22A59F1E740ABD0018C8F3 /* Project object */;
+}
